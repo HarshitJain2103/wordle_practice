@@ -1,0 +1,55 @@
+body {
+  font-family: 'Comic Sans Ms' , cursive , sans-serif;
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.tile{
+  margin: 2px;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  font-weight: bold;
+  border: solid black 1px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.restart-btn{
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #0d6efd;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  border: solid black 1px;
+  transition: all 0.2s ease;
+}
+
+.restart-btn:hover{
+  transform: scale(1.07);
+}
+
+.green{
+  background-color: green;
+  color: white;
+  border-color: black;
+}
+
+.yellow{
+  background-color: yellow;
+  color: white;
+  border-color: black;
+}
+
+.grey{
+  background-color: grey;
+  color: white;
+  border-color: black;
+}
+
